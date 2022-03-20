@@ -1,0 +1,42 @@
+[
+  {
+    "model": "api.roomType",
+    "pk": 1,
+    "fields": {
+      "description": "Individuales",
+      "amount": 20.00,
+      "max_guest": 1,
+      "available_rooms": 10
+    }
+  },
+  {
+    "model": "api.roomType",
+    "pk": 2,
+    "fields": {
+      "description": "Dobles",
+      "amount": 30.00,
+      "max_guest": 2,
+      "available_rooms": 5
+    }
+  },
+  {
+    "model": "api.roomType",
+    "pk": 3,
+    "fields": {
+      "description": "Triples",
+      "amount": 40.00,
+      "max_guest": 3,
+      "available_rooms": 4
+    }
+  },
+  {
+    "model": "api.roomType",
+    "pk": 4,
+    "fields": {
+      "description": "Cuadruples",
+      "amount": 50.00,
+      "max_guest": 4,
+      "available_rooms": 6
+    }
+  }
+]

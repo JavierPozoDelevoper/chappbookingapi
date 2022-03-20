@@ -1,1 +1,1 @@
-"web: gunicorn chappbooking.wsgi --log-file -" 
+ web: gunicorn chappbooking.wsgi

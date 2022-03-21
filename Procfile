@@ -1,3 +1,3 @@
 web: gunicorn Chappbooking.wsgi:application
-python manage.py collectstatic --noinput
+heroku ps:scale web=1
 manage.py migrate

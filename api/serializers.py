@@ -46,7 +46,7 @@ class BookingSerializers(serializers.ModelSerializer):
         """
         Check not create bookings for days before today
         """
-        if attrs['start_date'] > timezone.now().date() :
+        if attrs['start_date'] < timezone.now().date() :
             raise serializers.ValidationError({"start_date": "Start_date can't be before today"})
 
         """

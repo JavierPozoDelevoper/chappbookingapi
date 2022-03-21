@@ -9,7 +9,8 @@ https://docs.djangoproject.com/en/4.0/howto/deployment/wsgi/
 
 import os
 
-from django.core.wsgi import get_wsgi_application
+from Chappbooking.wsgi import ChappbookinApplication
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Chappbooking.settings')
 
+application = ChappbookinApplication(application)
